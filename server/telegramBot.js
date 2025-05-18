@@ -1,7 +1,7 @@
 import { request } from 'https';
 import { dbAll, dbGet, dbRun } from './db.js';
 
-const TELEGRAM_TOKEN = '756462:AAEGw79rGEFC_kaJNb5Cr6wI6UD_UJwGGaA';
+const TELEGRAM_TOKEN = 'SECRET';
 
 function botApi(name, data) {
     return new Promise(function(resolve, reject) {
